@@ -8,8 +8,6 @@ Note: You can alter the values of host from command line as well. Basically what
            "host": "uat",
         }
 
-cy.visit(Cypress.env('url' + Cypress.env('host')) + '/apply');
-
 
 2. When the application big and we have to handle large amount of test data we need to use fixtures file to store them as JSON files. Make sure to load the fixture file using beforeEach().
 
